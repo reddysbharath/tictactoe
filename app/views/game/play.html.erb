@@ -8,7 +8,7 @@
 		<table>
 			<th colspan="3">tiles</th>
 		<tr>
-		<td id = 't1' class = 'tiles' onclick="myFunction(this.id)"><%= var1 = '' %></td>
+		<td><button id = 't1' class = 'tiles' type="button" onclick="myFunction(this.id)"><% t = Tile.find(1) %><%= t.tile_value%></button></td>
 		<td id = 't2' class = 'tiles'><%= var2 = '' %></td>
 		<td id = 't3' class = 'tiles'><%= var3 = '' %></td>
 		</tr>

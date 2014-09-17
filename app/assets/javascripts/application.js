@@ -16,5 +16,7 @@
 //= require_tree .
 var id = "Hello";
 function myFunction(id){
-	alert("id is " + id);
+	if(id == 't1'){
+	alert("id is helloooo" + id);
+}
 }
