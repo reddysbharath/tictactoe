@@ -17,6 +17,14 @@
 var id = "Hello";
 function myFunction(id){
 	if(id == 't1'){
-	alert("id is helloooo" + id);
-}
-}
+	alert("id is " + id);
+}/*
+$.ajax({
+  type: "GET",
+  url: "play",
+  data:id
+})
+  .done(function( msg ) {
+    alert( "Data Saved: " + msg );
+  });
+*/}
